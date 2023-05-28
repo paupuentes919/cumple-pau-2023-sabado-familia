@@ -1,0 +1,48 @@
+.galeria-text{
+    display: flex;
+    justify-content: center;
+    
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    position: relative;
+}
+
+.galeria-text::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient(111.3deg, #ae741c 9.6%, #00bcd4 93.6%);
+  }
+
+  .galeria-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+
+  }
+
+  .background-image-galeria{
+    background-image: url("../img/wallpaperGaleriaImagenes.jpg");
+    padding-top: 2rem;
+  }
+
+  .container-galeria-imagenes{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .card{
+    margin-top: 2rem !important;
+    border: 3px solid black;
+  }
+
+  .card-body{
+    border-top: 3px solid black;
+  }
