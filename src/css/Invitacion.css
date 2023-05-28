@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.background-invitation{
+    background-image: url("../img/invitation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.invitation{
+    padding-top: 23rem;
+}
+
+.invitation-text{
+    font-family: 'Cookie';
+    font-size: 5rem;
+    transform: rotate(326deg);
+}
+
+.invitation-birthday-party{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+.img-dwight{
+    height: 170px;
+}
+
+.quote-person {
+    font-family: "Dancing Script";
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote {
+    font-size: 1.3rem;
+}
+
+.img-center {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-dwight {
+    padding-right: 2rem;
+    border-right: 2px solid rgb(30, 71, 138)
+}
+
+.container-info{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    display: grid;
+}
+
+.flex-details {
+    display: flex;
+}
+
+.title-detail{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 1280px){
+    .invitation-text {
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+
+    .details{
+        display: flex;
+    }
+}

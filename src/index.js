@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Galeria from './components/Galeria';
+import Invitacion from './components/Invitacion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar/>
     <Carousel/>
+    <Invitacion/>
     <Galeria/>
   </React.StrictMode>
 );
