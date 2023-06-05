@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Galeria from './components/Galeria';
 import Invitacion from './components/Invitacion';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
     <Carousel/>
     <Invitacion/>
     <Galeria/>
+    <Footer/>
   </React.StrictMode>
 );
 
