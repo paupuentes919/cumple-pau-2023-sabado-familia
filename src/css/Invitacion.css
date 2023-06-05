@@ -97,6 +97,15 @@
     font-size: 1.5rem;
 }
 
+.card {
+    transition: transform 1s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px rgb(57, 57, 57);
+    transform: scale(1.1);
+}
+
 @media (max-width: 1350px) {
     .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
         margin-left: 1.5rem;
@@ -212,6 +221,12 @@
     .datos-container {
         width: 200px;
     }
+}
+
+@media (max-width: 575px) {
+.row{
+    padding-left: 20px;
+}
 }
 
 @media (max-width: 530px) {
