@@ -1,78 +1,269 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+@font-face {
+    font-family: TheOffice;
+    src: url(../fonts/AmericanTypewriterRegular.ttf);
+}
+
 
 .background-invitation{
     background-image: url("../img/invitation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    width: 100%;
+    padding-bottom: 2rem;
+    background-attachment: fixed;
 }
 
-.invitation{
-    padding-top: 23rem;
-}
-
-.invitation-text{
-    font-family: 'Cookie';
-    font-size: 5rem;
-    transform: rotate(326deg);
-}
-
-.invitation-birthday-party{
-    margin-left: 5rem;
-    margin-right: 3rem;
-    margin-top: 5rem;
-}
-
-.img-dwight{
-    height: 170px;
-}
-
-.quote-person {
-    font-family: "Dancing Script";
-    font-size: 1.5rem;
+.birthday-party-container, .quote-dwight-container {
     display: flex;
-    justify-content: flex-end;
+    margin-left: 6rem;
+    padding-top: 2rem;
 }
 
-.quote {
-    font-size: 1.3rem;
-}
-
-.img-center {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.container-dwight {
-    padding-right: 2rem;
-    border-right: 2px solid rgb(30, 71, 138)
-}
-
-.container-info{
-    margin-left: 1rem;
-    margin-top: 3rem;
+.datos-container {
     display: grid;
+    margin-left: 6rem;
+    padding: 2rem 0;
+    padding-left: 1rem;
+    background-color: gainsboro;
+    border-radius: 6px;
+    width: 675px;
 }
 
-.flex-details {
+.birthday-party-title {
+    font-family: "TheOffice";
+    font-size: 5rem;
+    position: relative;
+}
+
+.birthday-party-title::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient(to right, rgb(2, 79, 186),  rgb(103, 137, 186));
+}
+
+.quote-dwight-text {
+    font-family: "TheOffice";
+    font-size: 2rem;
+}
+
+.quote-dwight-text-name {
     display: flex;
-}
-
-.title-detail{
-    font-weight: bold;
+    justify-content: flex-end;
+    font-family: "TheOffice";
     font-size: 1.3rem;
-    margin-right: 1rem;
 }
 
-@media (max-width: 1280px){
-    .invitation-text {
+.dwight-img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dwight-img {
+    height: 150px;
+}
+
+.cumple-29-container {
+    padding: 2rem 0;
+    display: flex;
+    margin-left: 6rem;
+}
+
+.cumple-29-text {
+    font-family: "TheOffice";
+    font-size: 2rem;
+}
+
+.dia-container, .dia-hora, .dia-lugar {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dia, .hora, .lugar {
+    font-family: "TheOffice";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dia-text, .hora-text, .lugar-text {
+    font-family: "TheOffice";
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1350px) {
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    .birthday-party-title {
         font-size: 4rem;
-        margin-top: 5rem;
     }
 
-    .details{
-        display: flex;
+    .quote-dwight-text {
+        font-size: 1.5rem;
+    }
+    
+    .quote-dwight-text-name {
+        font-size: 1rem;
+    }
+
+    .cumple-29-text {
+        font-size: 1.5rem;
+    }
+
+    .dia, .hora, .lugar {
+        font-size: 1rem;
+    }
+    
+    .dia-text, .hora-text, .lugar-text {
+        font-size: 1rem;
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 5rem;
+    }
+
+    .datos-container {
+        width: 520px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .background-invitation{
+        background-image: url("../img/invitation-3.jpg");
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 2rem;
+    }
+
+    .datos-container {
+        width: 510px;
+    }
+}
+
+@media (max-width: 991px) {
+    .galeria-text-container {
+        padding-right: 330px;
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .birthday-party-title {
+        font-size: 3rem;
+    }
+
+    .quote-dwight-text {
+        font-size: 1rem;
+    }
+
+    .cumple-29-text {
+        font-size: 1rem;
+    }
+
+    .datos-container {
+        width: 350px;
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 3rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .background-invitation{
+        background-image: url("../img/invitation-4.jpg");
+        background-position-x: center;
+    }
+
+    .galeria-text-container {
+        padding-right: 150px;
+    }
+
+    .birthday-party-title {
+        text-align: center;
+        margin-right: 800px;
+    }
+
+    .quote-dwight-text, .cumple-29-container {
+        width: 190px;
+        margin-bottom: 0;
+    }
+
+    .quote-dwight-text-name, .dwight-img-container {
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .datos-container {
+        width: 200px;
+    }
+}
+
+@media (max-width: 530px) {
+    .background-invitation{
+        background-image: url("../img/invitation-5.jpg");
+        background-position-x: -7rem;
+    }
+
+    .galeria-text-container {
+        padding-right: 130px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .galeria-text-container {
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 485px) {
+    .galeria-text-container {
+        padding-right: 90px;
+    }
+}
+
+@media (max-width: 470px) {
+    .background-invitation{
+        background-image: url("../img/invitation-6.jpg");
+        background-position-x: -5rem;
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 1rem;
+    }
+
+    .galeria-text-container {
+        padding-left: 70px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .background-invitation{
+        background-image: url("../img/invitation-7.jpg");
+    }
+
+    .birthday-party-title {
+        margin-right: 1000px;
+    }
+
+    .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
+        margin-left: 0.25rem;
     }
 }

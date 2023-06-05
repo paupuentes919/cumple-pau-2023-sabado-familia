@@ -5,48 +5,37 @@ import dwight from "../img/dwight.png";
 function Invitacion() {
   return (
     <div className="background-invitation">
-        <div className="invitation">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col invitation-birthday-party">
-            <p className="invitation-text">Birthday Party!</p>
-          </div>
-          <div className="col-6 container-dwight">
-            <p className="quote">"¿Sólo se vive una vez? ¡Falso!</p>
-            <p className="quote" style={{ paddingLeft: "15px" }}>
-              Se vive todos los días, se muere sólo una vez".
-            </p>
-            <p className="quote-person">- Dwight Schrute</p>
-            <div className="img-center">
-              <img src={dwight} className="img-dwight" />
-            </div>
-            <p className="quote" style={{ marginTop: "1.5rem" }}>
-              Por eso te invito a festejar conmigo mi cumple n° 29{" "}
-            </p>
-          </div>
-          <div className="col container-info">
-            <div>
-              <div className="flex-details" style={{ marginBottom: "1rem" }}>
-                <div className="title-detail">Lugar</div>
-                <div>Mi casa</div>
-              </div>
-              <div>Avellaneda 1851 8 B</div>
-            </div>
-            <div className="flex-details">
-              <div className="title-detail" style={{ marginRight: "35px" }}>
-                Dia
-              </div>
-              <div>Sabado 26/8</div>
-            </div>
-            <div className="flex-details">
-              <div className="title-detail" style={{ marginRight: "25px" }}>
-                Hora
-              </div>
-              <div>18.30 hs</div>
-            </div>
+      <div className="birthday-party-container">
+        <h1 className="birthday-party-title">Birthday Party</h1>
+      </div>
+      <div className="quote-dwight-container">
+        <div className="quote-dwight">
+          <p className="quote-dwight-text">¿Sólo se vive una vez? ¡Falso!</p>
+          <p className="quote-dwight-text">
+            Se vive todos los días, se muere sólo una vez
+          </p>
+          <p className="quote-dwight-text-name">- Dwight Schrute</p>
+          <div className="dwight-img-container">
+            <img src={dwight} className="dwight-img"/>
           </div>
         </div>
       </div>
+      <div className="cumple-29-container">
+        <span className="cumple-29-text">Por eso te invito a festejar mi cumple n° 29</span>
+      </div>
+      <div className="datos-container">
+        <div className="dia-container">
+          <p className="dia">Dia: </p>
+          <p className="dia-text">Sabado 26 de Agosto</p>
+        </div>
+        <div className="dia-hora">
+          <p className="hora">Hora: </p>
+          <p className="hora-text">18.30 hs</p>
+        </div>
+        <div className="dia-lugar">
+          <p className="lugar">Lugar: </p>
+          <p className="lugar-text">Mi casa - Avellaneda 1851 8 B</p>
+        </div>
       </div>
     </div>
   );

@@ -72,7 +72,7 @@ function Galeria() {
             </div>
             <div class="col">
               <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria5} class="card-img-top" alt="..." style={{height: "18.7rem"}}/>
+                <img src={Galeria5} class="card-img-top" alt="..." style={{height: "17rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     Some quick example text to build on the card title and make
@@ -146,7 +146,7 @@ function Galeria() {
             </div>
             <div class="col">
               <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria11} class="card-img-top" alt="..." style={{height: "18.7rem"}}/>
+                <img src={Galeria11} class="card-img-top" alt="..." style={{height: "17rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     Some quick example text to build on the card title and make
@@ -157,7 +157,7 @@ function Galeria() {
             </div>
             <div class="col">
               <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria12} class="card-img-top" alt="..." style={{height: "18.7rem"}}/>
+                <img src={Galeria12} class="card-img-top" alt="..." style={{height: "17rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     Some quick example text to build on the card title and make
