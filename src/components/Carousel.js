@@ -16,22 +16,22 @@ function Carousel() {
     <div class="carousel-item active">
       <img src={carouselImg1} class="d-block w-100 img-size" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Pau por Chicago!</h5>
+        <p>Paseando y disfrutando las vistas en Navy Pier</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={carouselImg2} class="d-block w-100 img-size" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Pau por Chicago 2!</h5>
+        <p>Paseando y dusfrutando las vistas en Lincoln Park</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={carouselImg3} class="d-block w-100 img-size" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Pau por Toronto!</h5>
+        <p>En el estadio de baseball de los Blue Jay</p>
       </div>
     </div>
   </div>
