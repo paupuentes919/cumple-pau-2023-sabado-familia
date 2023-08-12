@@ -23,7 +23,7 @@ function Galeria() {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria1} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -33,7 +33,7 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria2} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -43,7 +43,7 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria3} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -57,7 +57,7 @@ function Galeria() {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria4} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -67,8 +67,8 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria5} class="card-img-top" alt="..." style={{height: "17rem"}}/>
+              <div class="card" style={{ width: "20rem" }}>
+                <img src={Galeria5} class="card-img-top" alt="..." style={{height: "14.5rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     Año nuevo 2022 en mi casa, festejando con amigos y familia. Somos un montón, que bueno!
@@ -77,7 +77,7 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria6} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -91,7 +91,7 @@ function Galeria() {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria7} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -101,7 +101,7 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria8} class="card-img-top" alt="..."/>
                 <div class="card-body">
                   <p class="card-text">
@@ -111,7 +111,7 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria9} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -125,7 +125,7 @@ function Galeria() {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
+              <div class="card" style={{ width: "20rem" }}>
                 <img src={Galeria10} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">
@@ -135,8 +135,8 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria11} class="card-img-top" alt="..." style={{height: "17rem"}}/>
+              <div class="card" style={{ width: "20rem" }}>
+                <img src={Galeria11} class="card-img-top" alt="..." style={{height: "14.5rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     Casamiento de Caro y Sebas. Noche inolvidable, gracias por todo chicos! La pasamos re bien
@@ -145,8 +145,8 @@ function Galeria() {
               </div>
             </div>
             <div class="col">
-              <div class="card" style={{ width: "23rem" }}>
-                <img src={Galeria12} class="card-img-top" alt="..." style={{height: "17rem"}}/>
+              <div class="card" style={{ width: "20rem" }}>
+                <img src={Galeria12} class="card-img-top" alt="..." style={{height: "14.5rem"}}/>
                 <div class="card-body">
                   <p class="card-text">
                     En Japón con mi familia y el vendehumo de Santi. Que bien que la pasamos, cuando se repite?

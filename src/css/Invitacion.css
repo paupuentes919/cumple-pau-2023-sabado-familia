@@ -101,9 +101,11 @@
     transition: transform 1s;
 }
 
-.card:hover {
-    box-shadow: 0px 0px 20px rgb(57, 57, 57);
-    transform: scale(1.1);
+@media (min-width: 1350px){
+    .card:hover {
+        box-shadow: 0px 0px 20px rgb(57, 57, 57);
+        transform: scale(1.1);
+    }
 }
 
 @media (max-width: 1350px) {
@@ -232,7 +234,7 @@
 @media (max-width: 530px) {
     .background-invitation{
         background-image: url("../img/invitation-5.jpg");
-        background-position-x: -7rem;
+        background-position-x: -17rem;
     }
 
     .galeria-text-container {
@@ -256,7 +258,7 @@
 @media (max-width: 470px) {
     .background-invitation{
         background-image: url("../img/invitation-6.jpg");
-        background-position-x: -5rem;
+        background-position-x: -15rem;
     }
 
     .birthday-party-container, .quote-dwight-container, .datos-container, .cumple-29-container {
@@ -272,6 +274,7 @@
 @media (max-width: 400px) {
     .background-invitation{
         background-image: url("../img/invitation-7.jpg");
+        background-position-x: -8rem;
     }
 
     .birthday-party-title {
