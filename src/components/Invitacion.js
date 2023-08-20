@@ -26,15 +26,15 @@ function Invitacion() {
       <div className="datos-container">
         <div className="dia-container">
           <p className="dia">Dia: </p>
-          <p className="dia-text">Sabado 26 de Agosto</p>
+          <p className="dia-text">Sabado 2 de Septiembre</p>
         </div>
         <div className="dia-hora">
           <p className="hora">Hora: </p>
-          <p className="hora-text">20 hs</p>
+          <p className="hora-text">13 hs</p>
         </div>
         <div className="dia-lugar">
           <p className="lugar">Lugar: </p>
-          <p className="lugar-text">Mi casa - Avellaneda 1851 8 B</p>
+          <p className="lugar-text">Country San Eliseo</p>
         </div>
       </div>
     </div>
